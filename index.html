@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>株式会社メイク御中 YouTube運用 提案資料</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400..900&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#12192B;overflow:hidden}
+body{font-family:'Noto Sans JP','Hiragino Sans',Meiryo,sans-serif;-webkit-font-smoothing:antialiased;line-break:strict}
+h1,h2,h3,p,ul,ol,li,table{margin:0;padding:0}
+.stage{position:absolute;top:50%;left:50%;width:1920px;height:1080px;transform-origin:0 0}
+.slide{position:absolute;top:0;left:0;width:1920px;height:1080px;overflow:hidden;line-height:1.4;visibility:hidden;opacity:0;transition:opacity .35s ease}
+.slide.active{visibility:visible;opacity:1}
+.slide svg{display:block;flex-shrink:0}
+.slide table{border-collapse:collapse}
+.notes{display:none}
+.ui{position:fixed;right:20px;bottom:16px;display:flex;gap:8px;align-items:center;font:14px 'Noto Sans JP',sans-serif;color:#C9D1E0;z-index:10;opacity:.35;transition:opacity .2s}
+.ui:hover,.ui:focus-within{opacity:1}
+.ui button{font:inherit;color:#F7F4EE;background:#1F2A44;border:1px solid #3A4666;border-radius:6px;padding:6px 12px;cursor:pointer}
+.ui button:focus-visible{outline:2px solid #E6926B;outline-offset:2px}
+.counter{min-width:56px;text-align:center}
+@media (prefers-reduced-motion:reduce){.slide{transition:none}}
+@page{size:1920px 1080px;margin:0}
+@media print{
+  html,body{height:auto;overflow:visible;background:none}
+  .ui{display:none}
+  .stage{position:static;transform:none!important;width:1920px;height:auto}
+  .slide{position:relative;visibility:visible;opacity:1;break-after:page;page-break-after:always}
+}
+</style>
+</head>
+<body>
+<main class="stage" id="stage" aria-live="polite">
+<section class="slide" data-index="0" id="cover" data-transition="fade" style="background:#1F2A44; color:#F7F4EE; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px; display:flex; flex-direction:column; justify-content:space-between">
+  <p style="font-size:30px; font-weight:700; color:#E6926B; letter-spacing:4px">株式会社メイク 御中</p>
+  <div style="display:flex; flex-direction:column; gap:40px">
+    <h1 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:112px; font-weight:700; line-height:1.2">YouTube運用<br>ご提案資料</h1>
+    <div style="width:160px; height:6px; background:#E6926B"></div>
+    <p style="font-size:40px; line-height:1.5; color:#C9D1E0">大阪の家の売却相談を<br>YouTubeから集めるご提案</p>
+  </div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-end"><p style="font-size:24px; color:#C9D1E0">2026年11月6日</p><p style="font-size:30px; font-weight:700; color:#F7F4EE; letter-spacing:2px">株式会社AdGrace</p></div>
+  <aside class="notes">本日は、株式会社メイク様のYouTubeチャンネル運用をご提案します。前回、中古住宅の買取・仲介の仕入れを増やしたいと伺いました。そこで、大阪の家の売却相談をYouTubeから集める形を考えました。</aside>
+</section>
+<section class="slide" data-index="1" id="channels" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:104px 128px 160px; display:flex; flex-direction:column; gap:40px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">01　前提の共有</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">現在の集客と、YouTubeで得られる効果</h2>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">チラシ</p>
+      <p style="align-self:flex-start; font-size:24px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 14px">売却相談には弱い</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">リフォームには効くが<br>売却の反響は少ない</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">リフォームの問い合わせは<br>集まっていますが、買取の<br>相談はまだ少ない状態です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">一括査定サイト</p>
+      <p style="align-self:flex-start; font-size:24px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 14px">効果が出ていない</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">試しの査定ばかりで<br>電話がつながらない</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">相場を知りたいだけの人が<br>多く、メイク様を選んでの<br>問い合わせは少ない状態です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">YouTube</p>
+      <p style="align-self:flex-start; font-size:24px; font-weight:700; color:#FDFBF7; background:#E6926B; border-radius:6px; padding:2px 14px">ご提案</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#F7F4EE">動画で社長の話を<br>聞いた人から相談が来る</h3>
+      <p style="font-size:26px; line-height:1.7; color:#C9D1E0">売る前に自分で調べる人が<br>動画を見て、メイク様に<br>頼むと決めてから連絡します。</p>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">※前回のお打ち合わせで伺ったお話をもとに、弊社で整理したものです。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　02</p>
+  <aside class="notes">前回伺ったお話を整理しました。社長は、中古の戸建て・分譲マンション・住宅用地の仕入れをいま増やしたいと話されていました。チラシには年1,000〜1,200万円をかけていて、リフォームの問い合わせは来ていますが、買取の相談はまだ少ない状態です。一括査定サイトは試しに査定する人がほとんどで、9割は電話がつながりません。YouTubeなら、売る前に自分で調べる人が社長の話を聞き、メイク様に頼むと決めてから相談してきます。</aside>
+</section>
+<section class="slide" data-index="2" id="approach" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">02　YouTubeの一番のメリット</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">顧客の質の向上</h2>
+  </div>
+  <div style="display:flex; gap:24px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:20px; padding:48px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#6A6F7C">一括査定サイトの問い合わせ</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; line-height:1.3">何社にも<br>試しに頼む人</h3>
+      <p style="font-size:28px; line-height:1.7; color:#4A5264">相場を知りたいだけの人が多く<br>同じ人に何社も電話するので<br>話が先に進みません。</p>
+    </div>
+    <div style="width:64px; display:flex; align-items:center; justify-content:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="次へ" viewBox="0 0 56 56" style="width:56px; height:56px"><path d="M16 8 L40 28 L16 48" fill="none" stroke="#B5462A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:20px; padding:48px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">YouTubeで得られること</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; line-height:1.3; color:#F7F4EE">質の高いリードの<br>獲得が実現する</h3>
+      <p style="font-size:28px; line-height:1.7; color:#C9D1E0">「実家 相続 売却」などで調べ<br>何本か動画を見て、社長の考えに<br>納得した人から連絡が来ます。</p>
+    </div>
+  </div>
+  <p style="font-size:28px; line-height:1.6; color:#1F2A44">再生数は追いません。<span style="color:#B5462A; font-weight:700">大阪で家を売りたい人</span>に絞って届けます。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　03</p>
+  <aside class="notes">YouTubeの一番のメリットは、顧客の質が上がることです。一括査定サイトの問い合わせは、相場を知りたくて何社にも試しに頼んだ人からです。YouTubeでは、「実家 相続 売却」などで調べて動画を何本か見た人が、社長の考えに納得してから連絡してくるので、質の高いリードを獲得できます。再生数は追わず、大阪で家を売りたい人に絞って届けます。</aside>
+</section>
+<section class="slide" data-index="3" id="concept" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:72px 128px 160px; display:flex; flex-direction:column; gap:24px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">03　チャンネルの方針</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">相続した家、借地の家、古い家の売り方に、<br>大阪の不動産会社の<span style="color:#B5462A">社長が答える</span>チャンネル</h2>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:12px; background:#1F2A44; border-radius:12px; padding:24px 48px">
+    <p style="font-size:24px; font-weight:700; color:#E6926B">1本ごとの作り</p>
+    <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; color:#F7F4EE">家を売るときの悩み　→　地元の不動産会社が答える</p>
+    <p style="font-size:26px; color:#C9D1E0">例：実家を相続した → 売る前にやること　／　古い家 → 直して売るか、そのまま売るか</p>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">誰に</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">大阪に<br>家を持つ50代以上</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">戸建て・分譲マンション・<br>土地を持つ人と<br>その家族です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">何を</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">査定額の出し方と<br>手取りの差</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">一括査定の高い査定額の<br>理由まで話して、<br>信用してもらいます。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">ゴール</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#F7F4EE">買取・仲介の<br>売却相談</h3>
+      <p style="font-size:26px; line-height:1.7; color:#C9D1E0">リフォーム担当3人と<br>不動産担当2人がいて、<br>直して売る相談も受けられます。</p>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　04</p>
+  <aside class="notes">チャンネルは、まず大阪に絞ります。大阪で家を売る人の悩みを1本に1つ取り上げて、地元の不動産会社として社長が答えます。届ける相手は、大阪に戸建て・分譲マンション・土地を持つ50代以上と、その家族です。一括査定の高い査定額の理由や、買取と仲介の手取りの差まで話して信用してもらい、買取・仲介の売却相談につなげます。リフォーム担当3人と不動産担当2人がいるので、直して売る相談まで受けられます。</aside>
+</section>
+<section class="slide" data-index="4" id="image" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:96px 128px 160px; display:flex; flex-direction:column; gap:32px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">04　不動産のYouTube市場</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">市場の広い、不動産売却のYouTube</h2>
+  </div>
+  <div style="display:flex; gap:32px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; justify-content:center; background:#1F2A44; border-radius:12px; padding:24px 40px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">イメージに近いチャンネル</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#F7F4EE">不動産売却チャンネル</p>
+      <p style="font-size:24px; color:#C9D1E0">登録者9.19万人（2026年11月4日時点）</p>
+      <a href="https://www.youtube.com/@hudousanbaikyaku" target="_blank" style="font-size:24px; font-weight:700; color:#E6926B">チャンネルを見る →</a>
+    </div>
+    <div style="width:640px; border:1px solid #E2DBCD; border-radius:12px; overflow:hidden; background:#FFFFFF; display:flex; align-items:center"><img src="img/hudousanbaikyaku_top.jpg" alt="トップページ" style="display:block; width:100%; height:auto"></div>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:12px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A">相続・実家の売却を扱った回（再生数は2026年11月4日時点）</p>
+    <div style="display:flex; gap:32px">
+      <div style="width:470px; display:flex; flex-direction:column; gap:8px">
+        <img src="img/t_qvmUOMQQoKk.jpg" alt="相続・実家の売却の回のサムネイル" style="display:block; width:100%; height:auto; border-radius:10px">
+        <p style="font-size:24px; color:#4A5264">102.3万回</p>
+      </div>
+      <div style="width:470px; display:flex; flex-direction:column; gap:8px">
+        <img src="img/t_dJ2BnkFBk6A.jpg" alt="相続・実家の売却の回のサムネイル" style="display:block; width:100%; height:auto; border-radius:10px">
+        <p style="font-size:24px; color:#4A5264">37.9万回</p>
+      </div>
+      <div style="width:470px; display:flex; flex-direction:column; gap:8px">
+        <img src="img/t_5PeHv3TQh6g.jpg" alt="相続・実家の売却の回のサムネイル" style="display:block; width:100%; height:auto; border-radius:10px">
+        <p style="font-size:24px; color:#4A5264">2.5万回</p>
+      </div>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　05</p>
+  <aside class="notes">不動産売却のYouTube市場は、十分な広さがあります。不動産売却チャンネル（登録者9.19万人）が、イメージに近いチャンネルです。トップページと、相続・実家の売却を扱った回のサムネを3枚お見せします。再生数は102.3万回、37.9万回、2.5万回でした（2026年11月4日時点）。</aside>
+</section>
+<section class="slide" data-index="5" id="personas" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:96px 128px 160px; display:flex; flex-direction:column; gap:36px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">05　狙う視聴者</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">大阪で、家や土地を売りたい人</h2>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">視聴者1</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">家を売って住み替えたい<br>50〜70代</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">築30〜40年の戸建てや<br>分譲マンションを売りたい。<br>直して住むかも迷っている。<br><br>SEOキーワード：<br>戸建て 売却 築40年<br>マンション 売却 築30年</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">視聴者2</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">親の家や土地を<br>相続した50〜60代</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">実家や古家付きの土地を<br>受け継いだ。片付けも<br>売る段取りも分からない。<br><br>SEOキーワード：<br>実家 相続 売却<br>古家付き土地 売却</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">視聴者3</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">借地の上の家を<br>持っている人</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">地主から借りた土地に<br>家が建っている。地代と<br>承諾料のことで動けない。<br><br>SEOキーワード：<br>借地権 売却<br>借地 家 売れる</p>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">※視聴者像は想定です。メイク様に実際に来ているご相談に合わせて直します。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　06</p>
+  <aside class="notes">狙う視聴者は3人に絞りました。1人目は、大阪で築30〜40年の戸建てや分譲マンションを売って住み替えたい50〜70代です。2人目は親の実家や古家付きの土地を相続した50〜60代、3人目は借地の上の家を持っている人です。1人目と2人目の家は、メイク様が仕入れたい戸建て・分譲マンション・住宅用地にあたります。2人目と3人目の相談は、メイク様がホームページで打ち出している相続と借地そのものです。どれも想定なので、実際に来ているご相談に合わせて直します。</aside>
+</section>
+<section class="slide" data-index="6" id="ideas" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:88px 128px 160px; display:flex; flex-direction:column; gap:28px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">06　企画の切り口</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">売る前に調べることへの答えと、地元の実例</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px 24px">
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">1</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">一括査定の高い査定額はなぜ出る？</h3><p style="font-size:24px; color:#4A5264">→ 査定額と、実際に売れる値段の違い</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">2</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">実家を相続したら、まず何をする？</h3><p style="font-size:24px; color:#4A5264">→ 登記・税金・売却の順番</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">3</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">買取と仲介、どちらで売るべき？</h3><p style="font-size:24px; color:#4A5264">→ 手取りと、売れるまでの期間の違い</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">4</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">古家付きで売るか、解体して売るか</h3><p style="font-size:24px; color:#4A5264">→ 解体費と売値の比べ方</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">5</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">借地の家は売れる？</h3><p style="font-size:24px; color:#4A5264">→ 地主の承諾と価格の決まり方</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">6</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">港区の築40年の家、いくらで売れた？<span style="font-size:22px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 10px; margin-left:12px">相談</span></h3><p style="font-size:24px; color:#4A5264">→ 近所で実際に売れた値段</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">7</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">直して売ると、いくら変わる？<span style="font-size:22px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 10px; margin-left:12px">相談</span></h3><p style="font-size:24px; color:#4A5264">→ メイク様が買い取って直した家</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">8</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">大正区で実際にあった売却相談<span style="font-size:22px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 10px; margin-left:12px">相談</span></h3><p style="font-size:24px; color:#4A5264">→ 相談から売却までの流れ</p></div>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">「相談」の回では、メイク様の地元の港区・大正区の実例と、相談の窓口を見せます。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　07</p>
+  <aside class="notes">企画の切り口を8本出しました。1〜5は家を売る前に調べること（一括査定の査定額、相続、買取と仲介、解体、借地）に答える回です。大阪のほかの地域の人も見ますが、社長の顔と名前を覚えてもらえれば十分です。6〜8の「相談」の回では、港区・大正区で実際に売れた値段や、メイク様が買い取って直した家を見せて、地元の人から売却相談を受けます。</aside>
+</section>
+<section class="slide" data-index="7" id="cast" data-transition="fade" style="background:#ECE6DA; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:104px 128px 160px; display:flex; flex-direction:column; gap:36px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">07　演者</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">演者の想定パターン</h2>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:8px; background:#1F2A44; border-radius:12px; padding:28px 48px">
+    <p style="font-size:24px; font-weight:700; color:#E6926B">弊社が行うこと</p>
+    <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:40px; font-weight:700; color:#F7F4EE">ネタ出し・台本・撮影・編集・投稿まで、すべて弊社で対応</p>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">おすすめ</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:700; line-height:1.3; color:#F7F4EE">松茂社長がご出演</h3>
+      <p style="font-size:26px; line-height:1.7; color:#C9D1E0">家を売るのは、人生の中でも<br>大きな決断です。社長が<br>顔を出して話す会社なら、<br>安心して相談できます。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">社長が難しい場合</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:700; line-height:1.3">社内の担当者がご出演</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">不動産に詳しい担当者や、<br>トップの営業の方がいれば、<br>その方でも進められます。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">使わない形</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:700; line-height:1.3">AIで社長を動かす</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">見た人が「AIには<br>頼みたくない」と感じるので、<br>この形は使いません。</p>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　08</p>
+  <aside class="notes">前回、インスタは自分たちでネタを作って撮影する必要があり、時間を取られて断念したと伺いました。今回は、ネタ出し・台本・撮影・編集・投稿まですべて弊社で行います。出演は、松茂社長にお願いしたいと考えています。家を売るのは、人生の中でも大きな決断です。売る人は頼む会社を選ぶときに、その会社の社長が顔を出して話しているかを見ています。社長が難しい場合は、不動産に詳しい担当者の方や、トップの営業の方に出ていただく形もできます。前回ご質問のあったAIの社長は、見た人が「AIには頼みたくない」と感じるので使いません。</aside>
+</section>
+<section class="slide" data-index="8" id="funnel" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">08　問い合わせまでの流れ</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">YouTubeからの流入を、公式LINE経由で売却相談へ</h2>
+  </div>
+  <div style="display:flex; gap:12px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 1</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">売却前の<br>情報収集</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">相続や査定を<br>調べて動画を見る</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="28" height="40" viewBox="0 0 28 40"><path d="M6 6 L22 20 L6 34" fill="none" stroke="#B5462A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 2</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">実例を見る</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">港区・大正区で<br>売れた例と<br>メイク様を知る</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="28" height="40" viewBox="0 0 28 40"><path d="M6 6 L22 20 L6 34" fill="none" stroke="#B5462A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 3</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">公式LINEに<br>登録する</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">続きの解説を<br>受け取る</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="28" height="40" viewBox="0 0 28 40"><path d="M6 6 L22 20 L6 34" fill="none" stroke="#B5462A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 4</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">LINEで<br>査定を相談</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">電話なしで<br>相場を聞ける</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="28" height="40" viewBox="0 0 28 40"><path d="M6 6 L22 20 L6 34" fill="none" stroke="#B5462A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#1F2A44; color:#F7F4EE; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">GOAL</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">買取・仲介の<br>売却相談へ</h3>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">直して売り出す物件を紹介する回は、買いたい人のリストづくりにも使えます。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　09</p>
+  <aside class="notes">相続や査定を調べている人が悩みの回にたどり着き、港区・大正区で売れた実例の回でメイク様を知る、という順番です。公式LINEに登録してもらって続きの解説を送り、LINEで査定の相談を受けてから、買取・仲介の売却相談につなげます。直した物件を紹介する回は、買いたい人のリストづくりにも使えます。</aside>
+</section>
+<section class="slide" data-index="9" id="effects" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:96px 128px 160px; display:flex; flex-direction:column; gap:36px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">09　効果</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">YouTubeで得られる効果</h2>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">効果1</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">資産になる動画が<br>24時間回り続ける</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">チラシは配ったら終わりですが、<br>動画は公開したあとも<br>24時間、検索で見られ続けます。<br>月4本なら、1年で48本です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">効果2</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">会社の<br>信頼度が上がる</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">会社名で検索した人が、<br>社長の顔と話し方を<br>見てから相談できます。<br>相談先に選ばれやすくなります。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">効果3</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">AI検索で<br>上位に表示されやすい</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">ChatGPTやGoogleのAIに<br>家の売り方を聞いた人に、<br>メイク様の動画が<br>答えとして出やすくなります。</p>
+    </div>
+  </div>
+  <p style="font-size:24px; line-height:1.6; color:#6A6F7C">※GoogleのAI Overviewsが答えに使う情報源のうち、29.5%がYouTubeで、サイト別で1位です（BrightEdge調べ、2024年5月〜2025年9月）。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　10</p>
+  <aside class="notes">YouTubeで得られる効果は3つあります。1つ目は、資産になる動画が24時間回り続けることです。チラシは配ったら終わりですが、動画は公開したあとも検索で見られ続け、月4本なら1年で48本たまります。2つ目は、会社の信頼度が上がることです。会社名で検索した人が、社長の顔と話し方を見てから相談できるので、相談先に選ばれやすくなります。3つ目は、AI検索で上位に表示されやすいことです。GoogleのAI Overviewsが答えに使う情報源のうち、29.5%がYouTubeで、サイト別で1位です（BrightEdge調べ）。</aside>
+</section>
+<section class="slide" data-index="10" id="results" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:112px 128px 160px; display:flex; flex-direction:column; gap:40px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">10　運用の実績</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">登録者が少なくても、問い合わせにつながる実績</h2>
+  </div>
+  <div style="display:flex; gap:40px">
+    <div style="width:560px; display:flex; flex-direction:column; gap:16px; justify-content:center; padding:48px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:26px; font-weight:700; color:#E6926B">大阪のリフォーム会社</p>
+      <p style="font-size:26px; color:#C9D1E0">登録者 約720人で<br>YouTube経由の単月の売上</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:88px; font-weight:900; line-height:1.15; color:#F7F4EE">約1,000万円</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:24px; justify-content:center">
+      <table style="font-size:28px; color:#1F2A44">
+        <tr><th style="padding:20px 16px; text-align:left; color:#6A6F7C; border-bottom:2px solid #1F2A44">運用先</th><th style="padding:20px 16px; text-align:left; color:#6A6F7C; border-bottom:2px solid #1F2A44">成果</th></tr>
+        <tr><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; white-space:nowrap">大阪のリフォーム会社</td><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; color:#B5462A">登録者約720人で、単月の売上約1,000万円</td></tr>
+        <tr><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; white-space:nowrap">淡路島の買取再販会社</td><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; color:#B5462A">約半年の運用で、YouTube経由で物件が成約</td></tr>
+        <tr><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; white-space:nowrap">チャンネルの立ち上げ</td><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; color:#B5462A">2022年から1年で20チャンネル以上を立ち上げ・運用</td></tr>
+      </table>
+      <p style="font-size:24px; line-height:1.6; color:#6A6F7C">社名は非公開です。チャンネルは打ち合わせの場でお見せします。</p>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　11</p>
+  <aside class="notes">実績です。大阪のリフォーム会社は登録者約720人で、YouTube経由の売上が単月で約1,000万円ありました。淡路島の買取再販会社は、運用を始めて約半年でYouTube経由の物件が成約しています。弊社は2022年から1年で20チャンネル以上を立ち上げ、運用してきました。問い合わせ数の目標は、次のページにまとめました。社名は出さず、チャンネルは画面でお見せする予定です。</aside>
+</section>
+<section class="slide" data-index="11" id="goal" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:112px 128px 160px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">11　問い合わせ数の目標</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">1年後に、月15件の問い合わせ</h2>
+  </div>
+  <div style="display:flex; gap:12px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:40px">
+      <p style="font-size:28px; font-weight:700; color:#B5462A">3か月後</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:72px; font-weight:900; line-height:1.15; color:#1F2A44">月1〜5件</p>
+      <p style="font-size:26px; line-height:1.6; color:#4A5264">最初の問い合わせが<br>入り始めます</p>
+    </div>
+    <div style="width:40px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="28" height="40" viewBox="0 0 28 40"><path d="M6 6 L22 20 L6 34" fill="none" stroke="#B5462A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:40px">
+      <p style="font-size:28px; font-weight:700; color:#B5462A">半年後</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:72px; font-weight:900; line-height:1.15; color:#1F2A44">月10件</p>
+      <p style="font-size:26px; line-height:1.6; color:#4A5264">反応のよい企画を増やして、<br>件数を伸ばします</p>
+    </div>
+    <div style="width:40px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="28" height="40" viewBox="0 0 28 40"><path d="M6 6 L22 20 L6 34" fill="none" stroke="#B5462A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#1F2A44; border-radius:12px; padding:40px">
+      <p style="font-size:28px; font-weight:700; color:#E6926B">1年後</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:72px; font-weight:900; line-height:1.15; color:#F7F4EE">月15件</p>
+      <p style="font-size:26px; line-height:1.6; color:#C9D1E0">月15件の問い合わせを<br>安定して得ます</p>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">※目標の数字です。出演される方や、撮影の本数によって変わります。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　12</p>
+  <aside class="notes">問い合わせ数の目標です。3か月後ぐらいから月に1〜5件の問い合わせが入り始め、半年で月10件、1年後には月15件の問い合わせを安定して得ることを目標にします。目標の数字なので、出演される方や撮影の本数によって変わります。</aside>
+</section>
+<section class="slide" data-index="12" id="price" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:96px 128px 160px; display:flex; flex-direction:column; gap:36px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">12　運用プラン</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">運用プランと料金</h2>
+  </div>
+  <div style="display:flex; gap:32px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:8px; background:#1F2A44; border-radius:12px; padding:36px 48px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">ご提案プラン</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:40px; font-weight:700; color:#F7F4EE">YouTubeチャンネルの運用</h3>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #3A4560"><p style="width:120px; font-size:24px; font-weight:700; color:#E6926B">本数</p><p style="flex:1; font-size:26px; line-height:1.5; color:#C9D1E0">月4本</p></div>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #3A4560"><p style="width:120px; font-size:24px; font-weight:700; color:#E6926B">中身</p><p style="flex:1; font-size:26px; line-height:1.5; color:#C9D1E0">企画・撮影・編集・サムネイル・分析</p></div>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #3A4560"><p style="width:120px; font-size:24px; font-weight:700; color:#E6926B">ご負担</p><p style="flex:1; font-size:26px; line-height:1.5; color:#C9D1E0">撮影へのご出演のみ（社員の方のご出演も可）</p></div>
+      <div style="display:flex; gap:24px; align-items:baseline; padding-top:16px"><p style="width:120px; font-size:24px; font-weight:700; color:#E6926B">料金</p><p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:52px; font-weight:900; color:#E6926B">月額35万円〜</p></div>
+      <p style="font-size:24px; line-height:1.5; color:#C9D1E0">※別途、初期費用200,000円（税別）が必要です。<br>※動画の尺や撮影の手間によって、金額が変わることがあります。</p>
+    </div>
+      </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　13</p>
+  <aside class="notes">ご提案は月4本のYouTubeチャンネル運用で、月額35万円からです。別途、初期費用が20万円（税別）かかります。企画・撮影・編集・サムネイル・分析まで弊社で行い、メイク様のご負担は撮影への出演だけです。社員の方に出ていただくこともできます。動画の尺や撮影の手間によって、金額が変わることがあります。</aside>
+</section>
+<section class="slide" data-index="13" id="nextsteps" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:40px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">13　今後の流れ</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">今後の流れ</h2>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:8px">
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px; background:#1F2A44; color:#F7F4EE; border-radius:12px">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#E6926B">01</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#E6926B">本日</p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">進め方のご相談</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#C9D1E0">出演する方（社長か、社内の担当者か）を決めます</p>
+    </div>
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px; border-bottom:1px solid #E2DBCD">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#B5462A">02</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#6A6F7C">ご依頼後</p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">企画のご提案</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#4A5264">狙う検索語と、最初の4本の企画をお送りします</p>
+    </div>
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px; border-bottom:1px solid #E2DBCD">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#B5462A">03</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#6A6F7C"></p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">撮影の開始</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#4A5264">撮影日を決めて、制作を始めます</p>
+    </div>
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#B5462A">04</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#6A6F7C"></p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">運用・改善</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#4A5264">毎月、再生数と問い合わせ数を見て、次の企画を直します</p>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">株式会社メイク御中　YouTube運用 ご提案資料　｜　14</p>
+  <aside class="notes">本日は、出演の形と進め方のご相談までです。ご依頼いただいたら、狙う検索語と最初の4本の企画をお送りします。撮影日を決めて制作を始め、毎月、再生数と問い合わせ数を見て次の企画を直します。</aside>
+</section>
+</main>
+<nav class="ui" aria-label="スライド操作">
+  <button type="button" id="prev" aria-label="前のスライド">‹ 前へ</button>
+  <span class="counter" id="counter"></span>
+  <button type="button" id="next" aria-label="次のスライド">次へ ›</button>
+  <button type="button" id="fs" aria-label="全画面表示">全画面</button>
+</nav>
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var stage=document.getElementById('stage');
+  var counter=document.getElementById('counter');
+  var cur=0;
+  function fromHash(){var n=parseInt(location.hash.replace('#',''),10);return isNaN(n)?0:Math.min(Math.max(n-1,0),slides.length-1);}
+  function show(i){
+    cur=Math.min(Math.max(i,0),slides.length-1);
+    slides.forEach(function(s,k){s.classList.toggle('active',k===cur);s.setAttribute('aria-hidden',k===cur?'false':'true');});
+    counter.textContent=(cur+1)+' / '+slides.length;
+    if(location.hash!=='#'+(cur+1))history.replaceState(null,'','#'+(cur+1));
+  }
+  function fit(){
+    var s=Math.min(window.innerWidth/1920,window.innerHeight/1080);
+    stage.style.transform='translate(-50%,-50%) scale('+s+')';
+    stage.style.transformOrigin='center center';
+  }
+  document.getElementById('prev').onclick=function(){show(cur-1)};
+  document.getElementById('next').onclick=function(){show(cur+1)};
+  document.getElementById('fs').onclick=function(){
+    if(!document.fullscreenElement){document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();}
+    else{document.exitFullscreen&&document.exitFullscreen();}
+  };
+  document.addEventListener('keydown',function(e){
+    if(e.target.tagName==='BUTTON'&&(e.key===' '||e.key==='Enter'))return;
+    if(['ArrowRight','PageDown',' '].indexOf(e.key)>=0){e.preventDefault();show(cur+1);}
+    else if(['ArrowLeft','PageUp'].indexOf(e.key)>=0){e.preventDefault();show(cur-1);}
+    else if(e.key==='Home')show(0);
+    else if(e.key==='End')show(slides.length-1);
+    else if(e.key==='f'||e.key==='F')document.getElementById('fs').click();
+  });
+  stage.addEventListener('click',function(e){
+    if(e.target.closest('a'))return;
+    show(e.clientX<window.innerWidth/3?cur-1:cur+1);
+  });
+  var tx=null;
+  document.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+  document.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40)show(dx<0?cur+1:cur-1);tx=null;});
+  window.addEventListener('resize',fit);
+  window.addEventListener('hashchange',function(){show(fromHash())});
+  fit();show(fromHash());
+})();
+</script>
+</body>
+</html>
